@@ -1,0 +1,21 @@
+{
+  "name": "wa-welcome-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp profesional dengan fitur auto welcome & goodbye member",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "welcome"],
+  "author": "WelcomeBot Pro",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
