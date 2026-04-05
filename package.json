@@ -1,0 +1,17 @@
+{
+  "name": "wa-bot-sqdr",
+  "version": "1.0.0",
+  "description": "WhatsApp Welcome Bot untuk Squad DR (SQ DR)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "sqdr", "welcome"],
+  "author": "SQ DR",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0"
+  }
+}
